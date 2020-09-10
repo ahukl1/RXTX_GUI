@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RXTX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RXTX.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RXTX/RXTXPrivate/Lable_Thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RXTX/RXTXPrivate/Lable_Thread.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Process_Interaction/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process_Interaction/Process.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RXTXPrivate/Label_Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RXTXPrivate/Label_Thread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RXTXPrivate/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RXTXPrivate/Listener.java" afterDir="false" />
@@ -45,7 +44,20 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.testCode">
+    <configuration name="RXTX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RXTXPrivate.RXTX" />
+      <module name="RXTX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RXTXPrivate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RXTXPrivate.testCode" />
       <module name="RXTX" />
@@ -62,6 +74,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.testCode" />
+        <item itemvalue="Application.RXTX" />
       </list>
     </recent_temporary>
   </component>
@@ -80,6 +93,8 @@
       <workItem from="1598321437728" duration="3493000" />
       <workItem from="1598800278059" duration="638000" />
       <workItem from="1598960724929" duration="4043000" />
+      <workItem from="1598967572416" duration="13000" />
+      <workItem from="1599742263315" duration="3902000" />
     </task>
     <servers />
   </component>
@@ -95,37 +110,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="279" y="280" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1598001103223" />
-    <state width="1876" height="292" key="GridCell.Tab.0.bottom" timestamp="1598967370875">
+    <state width="1393" height="292" key="GridCell.Tab.0.bottom" timestamp="1599745780385">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.307.1920.1080@0.0.1920.1080" timestamp="1598967370875" />
-    <state width="1876" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1598326972738" />
-    <state width="1876" height="292" key="GridCell.Tab.0.center" timestamp="1598967370874">
+    <state width="1876" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.307.1920.1080@0.0.1920.1080" timestamp="1598967584690" />
+    <state width="1393" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599745780385" />
+    <state width="1393" height="292" key="GridCell.Tab.0.center" timestamp="1599745780385">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.307.1920.1080@0.0.1920.1080" timestamp="1598967370874" />
-    <state width="1876" height="292" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1598326972738" />
-    <state width="1876" height="292" key="GridCell.Tab.0.left" timestamp="1598967370874">
+    <state width="1876" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.307.1920.1080@0.0.1920.1080" timestamp="1598967584689" />
+    <state width="1393" height="292" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599745780385" />
+    <state width="1393" height="292" key="GridCell.Tab.0.left" timestamp="1599745780385">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.307.1920.1080@0.0.1920.1080" timestamp="1598967370874" />
-    <state width="1876" height="292" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1598326972738" />
-    <state width="1876" height="292" key="GridCell.Tab.0.right" timestamp="1598967370874">
+    <state width="1876" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.307.1920.1080@0.0.1920.1080" timestamp="1598967584689" />
+    <state width="1393" height="292" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599745780385" />
+    <state width="1393" height="292" key="GridCell.Tab.0.right" timestamp="1599745780385">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.307.1920.1080@0.0.1920.1080" timestamp="1598967370874" />
-    <state width="1876" height="292" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1598326972738" />
+    <state width="1876" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.307.1920.1080@0.0.1920.1080" timestamp="1598967584689" />
+    <state width="1393" height="292" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599745780385" />
     <state x="0" y="181" key="SettingsEditor" timestamp="1598001113562">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1598001113562" />
-    <state x="249" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1598963112653">
+    <state x="249" y="451" key="com.intellij.ide.util.TipDialog" timestamp="1599742358264">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="249" y="451" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1598963112653" />
+    <state x="249" y="451" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.307.1920.1080@0.0.1920.1080" timestamp="1598967574971" />
+    <state x="249" y="451" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599742358264" />
     <state x="312" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598150712783">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="312" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1598150712783" />
+    <state x="775" y="299" width="672" height="678" key="search.everywhere.popup" timestamp="1599745492134">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="775" y="299" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1599745492134" />
   </component>
 </project>

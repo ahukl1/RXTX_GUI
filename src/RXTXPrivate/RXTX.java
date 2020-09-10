@@ -93,6 +93,6 @@ public class RXTX {
 
     public static void main(String[] args) {
         ArrayList port = findPort();
-        System.out.println(port);
+
     }
 }
