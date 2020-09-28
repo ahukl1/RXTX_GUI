@@ -15,7 +15,7 @@ class Lable_Thread implements Runnable {
     public ArrayList<JComboBox> comboBoxes = new ArrayList();
     public ArrayList<JScrollPane> jScrollPanes=new ArrayList<>();
     public ArrayList<JTextField> textFields=new ArrayList<>();
-    private ArrayList<String> strs=new ArrayList(){{add("串口:");add("波特率：");add("校验位：");add("停止位：");}};
+    private ArrayList<String> strs=new ArrayList(){{add("串口:");add("波特率：");add("数据位：");add("停止位：");}};
     private int width=600,height=600;
     public Lable_Thread() {
         this.jFrame = new JFrame("RXTX V1.1");
@@ -56,10 +56,31 @@ class Lable_Thread implements Runnable {
            this.jFrame.add(this.comboBoxes.get(i));
            this.jFrame.add(this.labels.get(i));
        }
+        this.comboBoxes.get(1).addItem("50");
+        this.comboBoxes.get(1).addItem("75");
+        this.comboBoxes.get(1).addItem("100");
+        this.comboBoxes.get(1).addItem("150");
+        this.comboBoxes.get(1).addItem("300");
+        this.comboBoxes.get(1).addItem("600");
+        this.comboBoxes.get(1).addItem("1200");
+        this.comboBoxes.get(1).addItem("2400");
+        this.comboBoxes.get(1).addItem("4800");
+        this.comboBoxes.get(1).addItem("9600");
+        this.comboBoxes.get(1).addItem("19200");
+        this.comboBoxes.get(1).addItem("38400");
+        this.comboBoxes.get(2).addItem("5");
+        this.comboBoxes.get(2).addItem("6");
+        this.comboBoxes.get(2).addItem("7");
+        this.comboBoxes.get(2).addItem("8");
+        this.comboBoxes.get(3).addItem("1");
+        this.comboBoxes.get(3).addItem("1.5");
+        this.comboBoxes.get(3).addItem("2");
        this.buttons.add(new JButton("打开"));
         this.buttons.get(0).setBounds(this.width*485/600,this.height*30/600,this.width*65/600,this.height*20/600);
        this.jFrame.add(this.buttons.get(0));
     }
+    private void part_3_rm(){}
+    private void part_3(){}
     public void ready() {
         this.jFrame.setLayout(null);
         part_1();
